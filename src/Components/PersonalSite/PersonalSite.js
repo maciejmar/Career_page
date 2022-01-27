@@ -8,7 +8,7 @@ export default function PersonalSite() {
 
         <div className = "flexbox-container">
            <div className = "flexbox-item left-up-menu">   
-                <Menu title='First job'/>
+                <Menu title='My jobs'/>
             </div>        
                 
             <div className = "flexbox-item intro">

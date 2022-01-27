@@ -1,4 +1,5 @@
 import React from 'react';
+import Item from './../Item/Item'
 import PropTypes from 'prop-types';
 
 const Menu = ({title}) => {
@@ -6,7 +7,9 @@ const Menu = ({title}) => {
         <div>
             
                 {title}
-            
+                <Item uniName="AGH"/>
+                <Item uniname="SGH"/>
+                <Item uniName="UW"/>
         </div>
     )
 
