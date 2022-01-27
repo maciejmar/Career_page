@@ -3,11 +3,18 @@ import Item from './../Item/Item'
 import PropTypes from 'prop-types';
 
 const Menu = ({title}) => {
+    const agh ={
+        name: "AGH",
+        field: "Linguistic",
+        begin: "october 1999",
+        end: "september 2004"
+    }
+    
     return (
         <div>
             
                 {title}
-                <Item uniName="AGH"/>
+                <Item uniName={agh}/>
                 <Item uniname="SGH"/>
                 <Item uniName="UW"/>
         </div>
