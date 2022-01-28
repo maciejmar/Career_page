@@ -14,7 +14,12 @@ const Menu = ({title}) => {
         <div>
             
                 {title}
-                <Item uniName={agh}/>
+                <Item 
+                    name = {agh.name} 
+                    field = {agh.field}
+                    begin={agh.begin}
+                    end = {agh.end}
+                />
                 <Item uniname="SGH"/>
                 <Item uniName="UW"/>
         </div>
